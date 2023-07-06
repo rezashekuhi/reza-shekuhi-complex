@@ -1,6 +1,6 @@
 ﻿namespace ComplexManagment.Entities
 {
-    public class Bloook
+    public class Blook
     {
         public int Id { get; set; }
         public string Name { get; set; }
