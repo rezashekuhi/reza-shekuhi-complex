@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\taav\\Desktop\\project\\ComplexManagment\\ComplexManagment\\ComplexManagment.csproj": {}
+    "C:\\Users\\taav\\Desktop\\project\\ComplexManagment\\ComplexMigration\\ComplexMigration.csproj": {}
   },
   "projects": {
-    "C:\\Users\\taav\\Desktop\\project\\ComplexManagment\\ComplexManagment\\ComplexManagment.csproj": {
+    "C:\\Users\\taav\\Desktop\\project\\ComplexManagment\\ComplexMigration\\ComplexMigration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\taav\\Desktop\\project\\ComplexManagment\\ComplexManagment\\ComplexManagment.csproj",
-        "projectName": "ComplexManagment",
-        "projectPath": "C:\\Users\\taav\\Desktop\\project\\ComplexManagment\\ComplexManagment\\ComplexManagment.csproj",
+        "projectUniqueName": "C:\\Users\\taav\\Desktop\\project\\ComplexManagment\\ComplexMigration\\ComplexMigration.csproj",
+        "projectName": "ComplexMigration",
+        "projectPath": "C:\\Users\\taav\\Desktop\\project\\ComplexManagment\\ComplexMigration\\ComplexMigration.csproj",
         "packagesPath": "C:\\Users\\taav\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\taav\\Desktop\\project\\ComplexManagment\\ComplexManagment\\obj\\",
+        "outputPath": "C:\\Users\\taav\\Desktop\\project\\ComplexManagment\\ComplexMigration\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\taav\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,9 +40,29 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Swashbuckle.AspNetCore": {
+            "FluentMigrator.Runner": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[3.3.2, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.CommandLine": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -56,9 +76,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1a96f383-e1a1-4952-99a0-0db2112d0038": {
+      "ProjectGuid": "1a96f383-e1a1-4952-99a0-0db2112d0038",
+      "DisplayName": "ComplexManagment",
+      "ColorIndex": 0
+    },
+    "8d53d170-500b-47e1-9a54-cf96872f77e5": {
+      "ProjectGuid": "8d53d170-500b-47e1-9a54-cf96872f77e5",
+      "DisplayName": "ComplexMigration",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
